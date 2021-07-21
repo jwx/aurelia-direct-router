@@ -105,9 +105,9 @@ export class RoutingScope {
       container = origin;
     } else {
       if ('context' in origin) {
-        container = origin.context;
+        container = (origin as any).container;
       } else if ('$controller' in origin) {
-        container = origin.$controller!.context;
+        container = origin.$controller!.container;
       } else {
         const controller = CustomElement.for(origin as Node, { searchParents: true });
         container = controller?.container;
