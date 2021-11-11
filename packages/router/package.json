@@ -41,13 +41,13 @@
     "access": "public"
   },
   "dependencies": {
-    "@aurelia/kernel": "latest",
-    "@aurelia/metadata": "latest",
-    "@aurelia/platform": "latest",
-    "@aurelia/platform-browser": "latest",
-    "@aurelia/route-recognizer": "latest",
-    "@aurelia/runtime": "latest",
-    "@aurelia/runtime-html": "latest"
+    "@aurelia/kernel": "dev",
+    "@aurelia/metadata": "dev",
+    "@aurelia/platform": "dev",
+    "@aurelia/platform-browser": "dev",
+    "@aurelia/route-recognizer": "dev",
+    "@aurelia/runtime": "dev",
+    "@aurelia/runtime-html": "dev"
   },
   "devDependencies": {
     "typescript": "^4.0.3"

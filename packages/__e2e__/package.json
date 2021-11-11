@@ -15,12 +15,12 @@
     "test:debugger": "npx playwright test --headed"
   },
   "dependencies": {
-    "@aurelia/kernel": "latest",
-    "@aurelia/metadata": "latest",
-    "@aurelia/platform": "latest",
-    "@aurelia/platform-browser": "latest",
-    "@aurelia/runtime": "latest",
-    "@aurelia/runtime-html": "latest",
+    "@aurelia/kernel": "dev",
+    "@aurelia/metadata": "dev",
+    "@aurelia/platform": "dev",
+    "@aurelia/platform-browser": "dev",
+    "@aurelia/runtime": "dev",
+    "@aurelia/runtime-html": "dev",
     "aurelia-direct-router": "2.0.0-alpha.21.0"
   },
   "devDependencies": {
